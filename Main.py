@@ -251,7 +251,7 @@ class App:
         self.game_status = 0 #0は難易度選択画面　1はゲーム画面
         self.difficulty = 0 #0はeasy 1はnomal 2はhard
 
-        pyxel.init(WIDTH, HEIGHT, caption="VirusBuster_Shoting", quit_key=None)
+        pyxel.init(WIDTH, HEIGHT, quit_key=None)
         pyxel.load('Characters.pyxres')
 
         self.player = Player(0,0)

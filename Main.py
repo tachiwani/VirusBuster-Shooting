@@ -506,7 +506,7 @@ class App:
         pyxel.text(70, 55, "EASY", 6)
         pyxel.text(70, 65, "NOMAL", 6)
         pyxel.text(70, 75, "HARD", 6)
-        pyxel.text(45, 100, "PRESS ENTER START", 6)
+        pyxel.text(50, 100, "PRESS ENTER TO START", 6)
         
     def draw_game(self):
         pyxel.cls(0)
